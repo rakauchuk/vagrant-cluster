@@ -11,4 +11,4 @@ Installs a cluster of master node and slave nodes for RHEL/CentOS. Configure as 
 ```bash
 vagrant up
 ```
-![example demo.gif](https://github.com/rakauchuk/vagrant-cluster/blob/master/Vagrantfile/demo.gif)
+![demo.gif](https://github.com/rakauchuk/vagrant-cluster/blob/master/demo.gif)
