@@ -2,27 +2,41 @@
 - hostname: master
   box: centos/7
   network: private_network
-  ip: 10.0.0.1
+  ip: 10.0.0.2
   cpus: 2
   memory: 2048
 
 - hostname: node1
   box: centos/7
   network: private_network
-  ip: 10.0.0.2
+  ip: 10.0.0.3
   cpus: 2
   memory: 2048
 
 - hostname: node2
   box: centos/7
   network: private_network
-  ip: 10.0.0.3
+  ip: 10.0.0.4
   cpus: 2
   memory: 2048
 
 - hostname: node3
   box: centos/7
   network: private_network
-  ip: 10.0.0.4
+  ip: 10.0.0.5
+  cpus: 2
+  memory: 2048
+
+- hostname: node4
+  box: centos/7
+  network: private_network
+  ip: 10.0.0.6
+  cpus: 2
+  memory: 2048
+
+- hostname: node5
+  box: centos/7
+  network: private_network
+  ip: 10.0.0.7
   cpus: 2
   memory: 2048
