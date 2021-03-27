@@ -34,6 +34,7 @@ Vagrant.configure("2") do |config|
       # Every Vagrant development environment requires a box. You can search for
       # boxes at https://vagrantcloud.com/search.
       server.vm.box = servers["box"]
+      config.vm.box_version = servers["box_version"]
       server.vm.hostname = servers["hostname"]
       server.vm.network :private_network, ip: servers["ip"]
       # Provider-specific configuration so you can fine-tune various
