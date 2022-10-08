@@ -1,0 +1,13 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: geerlingguy.pip
+      ansible.builtin.include_role: { name: geerlingguy.pip }
+      vars:
+        pip_install_packages: [ { name: docker } ]
+    - name: geerlingguy.docker
+      ansible.builtin.include_role: { name: geerlingguy.docker }
+      vars:
+        docker_users: ["vagrant"]
